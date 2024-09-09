@@ -12,6 +12,7 @@ const background = <img class="background" alt="ocean" src="/images/ocean.jpg" /
 const images = [];
 for (const animal in animals) {
   images.push(`<img key={${animal}}src={${animal}}/>`)
+  console.log(animal);
 }
 
 const animalFacts = (
